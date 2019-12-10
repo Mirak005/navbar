@@ -1,0 +1,58 @@
+.nav-menu{
+    display: flex;
+    list-style: none;
+   
+    height: 21px;
+    text-align: center;
+    margin:0 35% ;
+}
+.nav-container{
+    border-bottom:  2.5px solid rgb(33, 150, 239);
+    
+
+}
+.menu-title{
+    flex: 1;
+}
+
+.dropdown{
+    list-style: none;
+    border-top: 0.5px solid rgb(33, 150, 239);
+    border-left: 2.5px solid rgb(33, 150, 239);
+    border-right: 2.5px solid rgb(33, 150, 239);
+    border-bottom: 2.5px solid rgb(33, 150, 239);
+    margin:  0;
+    line-height:40px ;
+    display: none;
+    text-align: center;
+    color: black;
+    
+    
+}
+.menu-link{
+   font-size: large;
+   font: 500;
+    color: black;
+}
+.menu-link:hover{
+    
+    color:rgb(33, 150, 239);
+}
+.menu-link:active{
+    
+     color:rgb(141, 64, 137);
+ }
+ 
+
+.menu-title :hover + .dropdown{
+display: block;
+
+}
+.dropdown:hover {
+display: block;
+}
+.dropdown li{
+cursor: pointer;
+}
+
+
